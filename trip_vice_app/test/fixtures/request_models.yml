@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  request_number: 1
+  user_number: 1
+  created_date: 2013-10-29
+  trip_start_date: 2013-10-29
+  trip_end_date: MyString
+  date: MyString
+  travel_to_city: MyString
+  number_of_replies: 1
+  request_status: MyString
+  category: MyString
+  max_replies: 1
+  request_text: MyText
+
+two:
+  request_number: 1
+  user_number: 1
+  created_date: 2013-10-29
+  trip_start_date: 2013-10-29
+  trip_end_date: MyString
+  date: MyString
+  travel_to_city: MyString
+  number_of_replies: 1
+  request_status: MyString
+  category: MyString
+  max_replies: 1
+  request_text: MyText
