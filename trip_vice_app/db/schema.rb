@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131029223931) do
+ActiveRecord::Schema.define(version: 20131030173633) do
 
   create_table "request_models", force: true do |t|
     t.integer  "request_number"
@@ -26,6 +26,29 @@ ActiveRecord::Schema.define(version: 20131029223931) do
     t.string   "category"
     t.integer  "max_replies"
     t.text     "request_text"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "users", force: true do |t|
+    t.integer  "user_number"
+    t.string   "first_name"
+    t.string   "last_name"
+    t.string   "home_city"
+    t.string   "home_state"
+    t.string   "home_country"
+    t.string   "email"
+    t.string   "user_name"
+    t.string   "password"
+    t.string   "security_question"
+    t.string   "security_answer"
+    t.integer  "number_advice_open"
+    t.integer  "number_advice_complete"
+    t.integer  "number_open_requests"
+    t.integer  "number_trips_done"
+    t.float    "traveler_average_rating"
+    t.float    "expert_average_rating"
+    t.text     "photo_link"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

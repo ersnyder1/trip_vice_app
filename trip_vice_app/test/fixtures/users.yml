@@ -1,0 +1,41 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  user_number: 1
+  first_name: MyString
+  last_name: MyString
+  home_city: MyString
+  home_state: MyString
+  home_country: MyString
+  email: MyString
+  user_name: MyString
+  password: MyString
+  security_question: MyString
+  security_answer: MyString
+  number_advice_open: 1
+  number_advice_complete: 1
+  number_open_requests: 1
+  number_trips_done: 1
+  traveler_average_rating: 1.5
+  expert_average_rating: 1.5
+  photo_link: MyText
+
+two:
+  user_number: 1
+  first_name: MyString
+  last_name: MyString
+  home_city: MyString
+  home_state: MyString
+  home_country: MyString
+  email: MyString
+  user_name: MyString
+  password: MyString
+  security_question: MyString
+  security_answer: MyString
+  number_advice_open: 1
+  number_advice_complete: 1
+  number_open_requests: 1
+  number_trips_done: 1
+  traveler_average_rating: 1.5
+  expert_average_rating: 1.5
+  photo_link: MyText
